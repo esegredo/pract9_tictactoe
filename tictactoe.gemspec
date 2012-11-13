@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["edusegre@gmail.com"]
   gem.description   = %q{Gem which implements tictactoe game}
   gem.summary       = %q{Gem which implements tictactoe game}
-  gem.homepage      = "https://bitbucket.org/esegredo/pract9_tictactoe/overview"
+  gem.homepage      = "https://github.com/esegredo/pract9_tictactoe"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
