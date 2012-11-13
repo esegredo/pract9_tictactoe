@@ -1,5 +1,3 @@
-require "tictactoe/version"
-
 module Tictactoe
   class Player
     def initialize( mark )

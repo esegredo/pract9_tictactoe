@@ -1,5 +1,4 @@
-require "tictactoe/version"
-require "player"
+require "tictactoe/player"
 
 module Tictactoe
   class SmartPlayer < Player

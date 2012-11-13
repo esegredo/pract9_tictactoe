@@ -1,7 +1,7 @@
 require "tictactoe/version"
-require "humanplayer"
-require "smartplayer"
-require "dumbplayer"
+require "tictactoe/humanplayer"
+require "tictactoe/smartplayer"
+require "tictactoe/dumbplayer"
 
 module Tictactoe
   module SquaresContainer
