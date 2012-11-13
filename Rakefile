@@ -20,3 +20,18 @@ desc "Run rspec with --format documentation"
 task :doc do
   sh "rspec -Ilib spec/*.rb --format documentation"
 end
+
+desc "Run HumanPlayer tests"
+task :hp_test do
+	sh "ruby -Ilib test/tc_humanplayer.rb"
+end
+
+desc "Run SmartPlayer tests"
+task :sp_test do
+	sh "ruby -Ilib test/tc_smartplayer.rb"
+end
+
+desc "Run DumbPlayer tests"
+task :dp_test do
+	sh "ruby -Ilib test/tc_dumbplayer.rb"
+end
